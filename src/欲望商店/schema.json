@@ -1,0 +1,343 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "系统": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "日期": {
+          "default": "",
+          "type": "string"
+        },
+        "时间段": {
+          "default": "",
+          "type": "string"
+        },
+        "当前场景": {
+          "default": "",
+          "type": "string"
+        }
+      }
+    },
+    "林若曦": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "身体变化": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "胸围": {
+              "default": "贫乳",
+              "type": "string"
+            },
+            "腰围": {
+              "default": "",
+              "type": "string"
+            },
+            "臀围": {
+              "default": "",
+              "type": "string"
+            },
+            "身高": {
+              "default": 139,
+              "type": "number"
+            }
+          }
+        },
+        "开发等级": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "口": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "敏感度等级": {
+                  "default": 1,
+                  "type": "number"
+                },
+                "成就": {
+                  "default": {},
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "default": {},
+                    "type": "object",
+                    "properties": {
+                      "名称": {
+                        "default": "",
+                        "type": "string"
+                      },
+                      "描述": {
+                        "default": "",
+                        "type": "string"
+                      },
+                      "解锁时间": {
+                        "default": "",
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "胸": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "敏感度等级": {
+                  "default": 1,
+                  "type": "number"
+                },
+                "成就": {
+                  "default": {},
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "default": {},
+                    "type": "object",
+                    "properties": {
+                      "名称": {
+                        "default": "",
+                        "type": "string"
+                      },
+                      "描述": {
+                        "default": "",
+                        "type": "string"
+                      },
+                      "解锁时间": {
+                        "default": "",
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "穴": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "敏感度等级": {
+                  "default": 1,
+                  "type": "number"
+                },
+                "成就": {
+                  "default": {},
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "default": {},
+                    "type": "object",
+                    "properties": {
+                      "名称": {
+                        "default": "",
+                        "type": "string"
+                      },
+                      "描述": {
+                        "default": "",
+                        "type": "string"
+                      },
+                      "解锁时间": {
+                        "default": "",
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "肛": {
+              "default": {},
+              "type": "object",
+              "properties": {
+                "敏感度等级": {
+                  "default": 1,
+                  "type": "number"
+                },
+                "成就": {
+                  "default": {},
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string"
+                  },
+                  "additionalProperties": {
+                    "default": {},
+                    "type": "object",
+                    "properties": {
+                      "名称": {
+                        "default": "",
+                        "type": "string"
+                      },
+                      "描述": {
+                        "default": "",
+                        "type": "string"
+                      },
+                      "解锁时间": {
+                        "default": "",
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "名望": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "学校": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "名声": {
+              "default": "清纯花朵",
+              "type": "string"
+            },
+            "描述": {
+              "default": "老师眼中的好孩子",
+              "type": "string"
+            }
+          }
+        },
+        "父母": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "名声": {
+              "default": "乖孩子",
+              "type": "string"
+            },
+            "描述": {
+              "default": "懂事听话的乖孩子",
+              "type": "string"
+            }
+          }
+        },
+        "网络": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "名声": {
+              "default": "默默无名",
+              "type": "string"
+            },
+            "描述": {
+              "default": "没人了解的小透明",
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "欲望商店": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "余额": {
+          "default": 1000,
+          "type": "number"
+        },
+        "当前商品": {
+          "default": {},
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "default": {},
+            "type": "object",
+            "properties": {
+              "名称": {
+                "default": "",
+                "type": "string"
+              },
+              "描述": {
+                "default": "",
+                "type": "string"
+              },
+              "售价": {
+                "default": 0,
+                "type": "number"
+              },
+              "类型": {
+                "default": "",
+                "type": "string"
+              }
+            }
+          }
+        },
+        "上次刷新时间": {
+          "default": "",
+          "type": "string"
+        },
+        "购买记录": {
+          "default": {},
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "default": {},
+            "type": "object",
+            "properties": {
+              "商品名称": {
+                "default": "",
+                "type": "string"
+              },
+              "购买时间": {
+                "default": "",
+                "type": "string"
+              },
+              "价格": {
+                "default": 0,
+                "type": "number"
+              }
+            }
+          }
+        },
+        "已购商品": {
+          "default": {},
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "default": {},
+            "type": "object",
+            "properties": {
+              "名称": {
+                "default": "",
+                "type": "string"
+              },
+              "效果": {
+                "default": "",
+                "type": "string"
+              },
+              "购买日期": {
+                "default": "",
+                "type": "string"
+              },
+              "数量": {
+                "default": 1,
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

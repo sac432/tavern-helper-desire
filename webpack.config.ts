@@ -524,6 +524,12 @@ function parse_configuration(entry: Entry): (_env: any, argv: any) => webpack.Co
         return callback();
       }
 
+      // 打包进产物，避免 CDN import 在 Tauri WebView 中被 CSP 阻止
+      const bundle_internally = ['pinia', 'async-wait-until'];
+      if (bundle_internally.includes(request)) {
+        return callback();
+      }
+
       if (
         request.startsWith('-') ||
         request.startsWith('.') ||
